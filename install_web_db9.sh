@@ -33,7 +33,7 @@ rm my.sql
 apt install php libapache2-mod-php php-mysql php-curl -y
 systemctl restart apache2
 
-wget -O /etc/apache2/mods-enabled/dir.conf 'https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/openvpnweb/dir.conf'
+wget -O /etc/apache2/mods-enabled/dir.conf 'https://raw.githubusercontent.com/san2018soe/sansoeWebPanel/master/dir.conf'
 
 sudo a2enmod rewrite
 systemctl restart apache2
