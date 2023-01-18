@@ -45,7 +45,7 @@ systemctl restart apache2
 rm -Rf /var/www/html
 mkdir /var/www/html
 
-wget -O /var/www/html/htdocs.tar 'https://github.com/san2018soe/sansoeWebPanel/master/htdocs_openvpn_final.tar'
+wget -O /var/www/html/htdocs.tar 'https://github.com/san2018soe/sansoeWebPanel/raw/master/htdocs_openvpn_final.tar'
 
 cd /var/www/html/
 
