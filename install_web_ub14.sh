@@ -31,12 +31,12 @@ mysqladmin -u root password $password
 apt-get install php5 libapache2-mod-php5 php5-mcrypt php5-curl -y
 service apache2 restart
 
-wget -O /etc/apache2/mods-enabled/dir.conf 'https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/openvpnweb/dir.conf'
+wget -O /etc/apache2/mods-enabled/dir.conf 'https://raw.githubusercontent.com/san2018soe/sansoeWebPanel/master/dir.conf'
 
 sudo a2enmod rewrite
 service apache2 restart
 
-wget -O /etc/apache2/sites-available/000-default.conf 'https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/openvpnweb/000-default.conf'
+wget -O /etc/apache2/sites-available/000-default.conf 'https://raw.githubusercontent.com/san2018soe/sansoeWebPanel/master/000-default.conf'
 
 service apache2 restart
 
